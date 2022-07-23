@@ -1,2 +1,16 @@
-* xref:index.adoc[]
 
+=== Pulssoner
+
+Verdier for pulssoner er hentet fra Polar sine nettsider: https://www.polar.com/nb/smart-coaching/what-are-heart-rate-zones
+
+Makspuls basert på NTNU sine nettsider og er basert på alder: https://www.ntnu.no/cerg/hfmax
+
+[options="header"]
+|==============================================================
+| Sone | Definisjon | Puls (basert 187 i max)
+|Pulssone 1 (Svært lett) |50-60% av maksspuls |94-112
+|Pulssone 2 (Lett)         |60-70% av maksspuls  |112-131
+|Pulssone 3 (Moderat)      |70-80% av maksspuls  |131-145
+|Pulssone 4 (Hard)         |80-90% av maksspuls  |150-168
+|Pulssone 5 (Svært hard)   |90-100% av maksspuls |168-187
+|===============================================================
