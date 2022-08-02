@@ -1,3 +1,5 @@
 site_name: Docs
 theme:
   name: material
+nav:
+  - Fag: fag.md
