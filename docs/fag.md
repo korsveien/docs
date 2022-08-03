@@ -42,6 +42,7 @@ Nettverk
 -	DNS
 	-	FTLDNS
 -	NAT
+-	VLAN
 
 ### POE (Power Over Ethernet)
 
