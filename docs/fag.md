@@ -4,6 +4,10 @@ Fag 🪚
 Systemutvikling
 ---------------
 
+### Terminologi
+
+-	Shim
+
 ### God praksis
 
 #### Expand and contract
@@ -16,6 +20,7 @@ Sikkerhet
 -	Sertifikater
 	-	X509
 	-	pkcs12
+	-	PEM-format
 -	Oauth
 
 Monitorering
@@ -29,11 +34,23 @@ Nettverk
 --------
 
 -	Apple Bonjour
+-	Cat 6/7/8? https://en.wikipedia.org/wiki/ISO/IEC_11801#CAT7
+
+### POE (Power Over Ethernet)
+
+-	https://en.wikipedia.org/wiki/Power_over_Ethernet
+
+### Hjemmenettverk
+
+-	https://docs.pi-hole.net/
+	-	https://en.wikipedia.org/wiki/DNS_sinkhole
 
 Databaser
 ---------
 
 ### Postgres
+
+-	https://postgrespro.com/community/books/internals
 
 ### SQL
 
@@ -43,8 +60,6 @@ Plattform
 ### Terraform
 
 ### Docker
-
-### Kubernetes
 
 Kubernetes
 ==========
@@ -86,6 +101,12 @@ Håndterer nettverksregler ved å filtrere trafikk inn og ut.
 
 Programvaren som kjører containere, som regel [containerd](https://containerd.io/docs/).
 
+### Ingress
+
+#### Nginx ingress
+
+-	https://kubernetes.github.io/ingress-nginx/  
+
 ### Control Plane
 
 En samling komponenter som håndterer *Nodes*, *Pods*, skedulering og responderer på events.
@@ -106,6 +127,8 @@ En samling komponenter som håndterer *Nodes*, *Pods*, skedulering og respondere
 
 #### Helm
 
+#### kured (KUbernetes REboot Daemon)
+
 Programmeringsspråk
 -------------------
 
@@ -113,7 +136,7 @@ Programmeringsspråk
 
 ### Lua
 
-### Swift
+### Rust
 
 Leseliste
 ---------
