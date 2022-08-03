@@ -14,6 +14,10 @@ Systemutvikling
 
 https://martinfowler.com/bliki/ParallelChange.html
 
+### Arkitektur
+
+#### SPoF (Single Point of Failure)
+
 Sikkerhet
 ---------
 
@@ -35,6 +39,9 @@ Nettverk
 
 -	Apple Bonjour
 -	Cat 6/7/8? https://en.wikipedia.org/wiki/ISO/IEC_11801#CAT7
+-	DNS
+	-	FTLDNS
+-	NAT
 
 ### POE (Power Over Ethernet)
 
@@ -44,6 +51,7 @@ Nettverk
 
 -	https://docs.pi-hole.net/
 	-	https://en.wikipedia.org/wiki/DNS_sinkhole
+-	https://github.com/NLnetLabs/unbound
 
 Databaser
 ---------
