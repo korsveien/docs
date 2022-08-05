@@ -16,6 +16,10 @@ https://martinfowler.com/bliki/ParallelChange.html
 
 ### Arkitektur
 
+#### Logging
+
+##### fluentbit
+
 #### SPoF (Single Point of Failure)
 
 Sikkerhet
@@ -26,12 +30,23 @@ Sikkerhet
 	-	pkcs12
 	-	PEM-format
 -	Oauth
+-	CVE (Common Vulnerability and Exposure)
+	-	https://cve.mitre.org/ sponset av department of homeland security i USA
+	-	CVE Numbering Authority (CNA)
+	-	Common Vulnerability Scoring System (CVSS), åpen standard for severity scoring 0.0 til 10.0
 
-Monitorering
-------------
+Observerbarhet
+--------------
 
 -	Prometheus
+	-	PromQL
 -	Grafana
+	-	Dashboard sprawl
+	-	https://grafana.com/docs
+	-	Ha en strategi for observerbarhet
+	-	USE: Utilization, Saturation og Errors
+	-	RED: Rate, Errors og Duration
+	-	grafonnet (Jsonnet)
 -	pghero
 
 Nettverk
@@ -60,6 +75,15 @@ Databaser
 ### Postgres
 
 -	https://postgrespro.com/community/books/internals
+-	pg_stat
+
+\-
+
+#### Konsepter
+
+##### Cluster
+
+En samling databaser som er håndtert av en enkelt instans av en databaseserver.
 
 ### SQL
 
@@ -152,4 +176,4 @@ Leseliste
 
 -	[Kubernetes in Action](https://www.manning.com/books/kubernetes-in-action)
 -	[Core Kubernetes](https://www.manning.com/books/core-kubernetes)
--	[Accelerate](https://books.apple.com/no/book/accelerate-the-science-of-lean-software-and/id1604511060)
+-	[Accelerate](https://books.apple.com/nbook/accelerate-the-science-of-lean-software-and/id1604511060)
